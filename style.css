@@ -1,0 +1,62 @@
+/*Arquivo css externo
+
+- As estilizações podem ser feitas da seguinte forma:
+tag{...}
+.classe{...}
+#id{...}
+
+- Link de site com mais informações sobre css
+https://www.w3schools.com/css/
+
+- Ao dar espaço em um parâmetro x e adicionar um parâmetro y, estamos pegando todos os y dentro de x
+
+- Cores são dadas com o nome em inglês ou pela paleta de cores padrão
+
+- Link com paleta de cores:
+https://www.w3schools.com/tags/ref_colornames.asp
+
+- Link de tabela de cores mozila
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value
+
+- Links de sites para sugestões de combinações de cores
+https://coolors.co/
+https://colorhunt.co/
+https://color.adobe.com/pt/create/color-wheel
+https://m3.material.io/styles/color/system/overview
+
+
+- Estilizações:
+
+Cor de fundo
+background-color:...; (ou apenas background:...;)
+
+Cor das letras
+color:...;
+
+Tipo de fonte das letras
+font-family:...;
+
+Sombra de box
+box-shadow: horizontal vertical foco cor;
+
+Espaçamento interno
+padding:...;
+*/
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body main{
+    color: white;
+    background-color: black;
+}
+body main img{
+    box-shadow: 5px -5px 1px #279bd1;
+}
+strong{
+    color: #279bd1;
+}
+span{
+    border: 2px solid #279bd1;
+    color: #279bd1;
+    padding: 10px;
+}

@@ -1,0 +1,126 @@
+<!--
+- O comando CTRL + N cria um arquivo
+
+- O comando CTRL + k, CTRL + o são um atalho para abrir arquivos
+
+- O comando CTRL + ALT + Windows + n criam um novo arquivo
+
+- O comando "html:5" ou apenas "!" são atalhos para criar a estrutura básica html
+
+- O comando CTRL + X abre as extensões do vs code
+
+- A extensão live server é uma boa forma de abrir os arquivos enquanto trabalha neles
+
+- O comando CTRL + S atualiza as alterações
+
+- Extensões do vs code mais utilizadas em:
+https://www.alura.com.br/artigos/extensoes-vs-code-descubra-as-mais-usadas?_gl=1*yco1vg*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNjU2NTQ3Mi43LjEuMTcxNjU2NjA0OS4wLjAuMA..*_fplc*ZXBleFdjbGdtaVhIWUI4SWtYS0xDS3RLWnRRNEYwaFVZJTJGd2VSd2Y3M3BlNzRPWHVCQU5hSnlOT0ozeEslMkJXekNORSUyQksxMEd0dTdnMm16Q2F6bzBud3hsZER2SkpoYkglMkZKJTJCcExEUXJoVEUwclkxc3RKUkU4dnV5JTJGbVcxYkl3JTNEJTNE
+
+- Link do figma
+https://www.figma.com/design/4EKKCbr5rS93RWP7kRjXIz/Portfolio---Curso-1?node-id=0-1&t=qjiYXh5WzU6FQp8a-0
+
+- Pode-se observar seu código au inspencionar a página com o click direito do mouse
+
+- Caso o código html não possua o DOCTYPE, sua página entrará em "modo Quircks", o que não é recomendado
+
+- O comando CTRL + B abre ou fecha a coluna de arquivos e pastas
+
+- Link do emmet io (abreviador de codificação):
+https://docs.emmet.io/
+
+- O comando "lorem" gera um texto aleatório para testes
+-->
+
+<!--Declara este documento commo um documento html5-->
+<!DOCTYPE html> 
+
+<!--Todo o conteúdo html, com a linguagem "pt-br"-->
+<html lang="pt-br"> 
+
+    <!--Informações do documento (não visível ao usuário)-->
+    <head>
+
+        <!--Codificação dos caracteres a utilizar-->
+        <meta charset="UTF-8">
+        
+        <!--Pegar a versão mais atual do navegador Edge-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!--Coleta a escala inicial do tamanho do dispositivo utilizado-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Título da página-->
+        <title>CursoHTML</title>
+
+        <!--Tag para ligar o arquivo html ao arquivo css proposto em href-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--Tag para comandos java-script interno-->
+        <script>
+            alert("Hellor world!!! (interno)")
+        </script>
+    </head>
+
+    <!--Corpo da página (parte visível)-->
+    <body>
+
+        <!--Títulos (h1 deve ser usado 1 vez por página)-->
+        <h1>Titulo h1</h1>
+
+        <!--Título de h2 até h6 são menores conforme aumentamos o hx (h1 sendo o maior e h6 sendo o menor)-->
+        <h2>Título h2</h2>
+        <h3>Título h3</h3>
+        <h4>Título h4</h4>
+        <h5>Título h5</h5>
+        <h6>Título h6</h6>
+
+        <!--Tag para parágrafos-->
+        <p>Parágrafo p</p>
+
+        <!--Tag para colocar imagens com src sendo o link e alt a descrição (width é um parâmetro de tamanho vertical)-->
+        <img width="200px" src="Imagens/exemplo1.jpg" alt="imagem de exemplo">
+
+        <!--Criação de lista ordenada-->
+        <ol>
+
+            <!--Criação de itens dentro da lista-->
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 4</li>
+        </ol>
+
+        <!--Criação de lista não ordenada-->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 4</li>
+        </ul>
+
+        <h1>Formação de <span>FRONT-END</span></h1>
+
+        <!--Div para cabeçalho-->
+        <header></header>
+
+        <!--Div para conteúdo principal-->
+        <main>
+            <h1>Bloco main com  
+                <!--Tag para destacar trechos para o navegador-->
+                <strong> testes para CSS</strong>
+            </h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem impedit quasi voluptate voluptatum excepturi eos voluptatibus eius rerum accusantium dolor sapiente inventore doloremque eum cupiditate, culpa repellat nostrum ut tempora.</p>
+            
+            <!--Tag para redirecionar para o link dentro do parâmetro href-->
+            <a href="https://www.linkedin.com/feed/">Linkedin</a>
+            <a href="https://github.com/">Git-hub</a>
+            
+            <!--O parâmetro style permite adicionar comandos css-->
+            <img width="200px" src="Imagens/curriculoExemploImg.jpg" alt="imagem de teste 2">
+        </main>
+
+        <!--Div para rodapé da página-->
+        <footer></footer>
+
+        <!--Tag para conectar um arquivo java-script externo-->
+        <script src="index.js"></script>
+    </body>
+</html>

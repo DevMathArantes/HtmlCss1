@@ -1,0 +1,21 @@
+HTML: 
+ linguagem de marcação utilizada para estruturar os elementos da página, 
+como parágrafos, links, títulos, tabelas, imagens e até vídeos.
+
+CSS: 
+ linguagem de estilos utilizada para definir cores, fontes, tamanhos, 
+posicionamento e qualquer outro valor estético para os elementos da página.
+
+Javascript: 
+ linguagem de programação utilizada para deixar a página com mais 
+movimento, podendo atualizar elementos dinamicamente e lidar melhor com dados 
+enviados e recebidos na página.
+
+Mais detalhes pelo link: 
+https://www.alura.com.br/artigos/html-css-e-js-definicoes?_gl=1*1o4hghf*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNzMyNzU4OC4xOS4xLjE3MTczMjkwNTguMC4wLjA.
+
+Mais sobre HTML:
+https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos
+https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics
+https://htmldog.com/references/html/
+
